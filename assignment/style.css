@@ -1,11 +1,122 @@
 /* Give your page a fun background color */
+* {
+  box-sizing: border-box;
+}
 
 /* Make the header and footer a different color from the background */
 
+.header {
+  position: relative;
+  background-color: #34d1bf;
+  height: 200px;
+  top: -40px;
+}
+
 /* Align the h1 containing your name in the center of the header*/
+.header-text h1 {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.5rem;
+  text-align: center;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+.main-section {
+  background-color: #d1345b;
+  padding-top: 30px;
+  position: relative;
+  top: -40px;
+}
+
+.dog-image img {
+  display: inline;
+  margin-left: 480px;
+  position: relative;
+  width: 400px;
+  height: 450px
+}
+
+/* Put a border around your image */
+.dog-image img {
+  border-style: solid;
+  border-color: #070707;
+  border-width: thin;
+}
+
+.dog-quotes {
+  text-align: center;
+  background-color: #F7DEE4;
+  padding: 10px;
+  line-height: 0.5;
+}
 
 /* Make your p tag a different color and italic */
 
-/* Put a border around your image */
+.dog-quotes p {
+  font-family: 'Oswald';
+  color: #521422;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.aldous-huxley p {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+.charles-schultz p {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+.about-me {
+  left: 70px;
+  border-left-width: 40px;
+  margin-right: 40px;
+  width: 500px;
+  margin-left: 470px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-me p {
+  font-family: 'Oswald';
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.about-me ul li {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  padding: 15px;
+}
+
+.footer-section {
+  height: 150px;
+  position: relative;
+  top: -40px;
+}
+
+.footer-paragraph {
+  display: inline;
+  position: relative;
+  top: -20px;
+}
+
+.footer-paragraph p {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background-color: #070707;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+
+
+
 
 /* Change the font-family of your list */
